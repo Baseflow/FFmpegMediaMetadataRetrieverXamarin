@@ -25,7 +25,7 @@ namespace Sample
             button.Click += delegate { 
 
                 FFmpegMediaMetadataRetriever mmr = new FFmpegMediaMetadataRetriever();
-                mmr.SetDataSource("http://www.montemagno.com/sample.mp3");
+                mmr.SetDataSource("https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov");
                 mmr.ExtractMetadata(FFmpegMediaMetadataRetriever.MetadataKeyAlbum);
                 mmr.ExtractMetadata(FFmpegMediaMetadataRetriever.MetadataKeyArtist);
                 Bitmap b = mmr.GetFrameAtTime(2000000, FFmpegMediaMetadataRetriever.OptionClosest); // frame at 2 seconds

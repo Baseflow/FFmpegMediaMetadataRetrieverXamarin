@@ -1,9 +1,19 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpegMediaMetadataRetriever", "FFmpegMediaMetadataRetriever\FFmpegMediaMetadataRetriever.csproj", "{99318E3F-E2A2-4B3C-A34F-92DD65CE219C}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFmpegMediaMetadataRetriever", "FFmpegMediaMetadataRetriever\FFmpegMediaMetadataRetriever.csproj", "{99318E3F-E2A2-4B3C-A34F-92DD65CE219C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5FC7866E-D11E-4656-8509-826F2340696F}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		build.cake = build.cake
+		Directory.build.props = Directory.build.props
+		Directory.build.targets = Directory.build.targets
+		global.json = global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +27,14 @@ Global
 		{99318E3F-E2A2-4B3C-A34F-92DD65CE219C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F49D9A-645B-4C66-8BC0-ECFCF4FBB70B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BADA3135-69AB-4460-A35A-D70F09036A1C}
 	EndGlobalSection
 EndGlobal
