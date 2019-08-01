@@ -186,8 +186,8 @@ Task("SignPackages")
             .AppendSwitchQuoted("-i", MakeAbsolute(file).FullPath)
 			.AppendSwitchQuotedSecret("-s", signingSecret)
             .AppendSwitchQuotedSecret("-r", signingUser)
-            .AppendSwitchQuoted("-n", "LottieXamarin")
-            .AppendSwitchQuoted("-d", "Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!")
+            .AppendSwitchQuoted("-n", "FFmpegMediaMetadataRetriever")
+            .AppendSwitchQuoted("-d", "FFmpegMediaMetadataRetriever provides a unified interface for retrieving frame and meta data from an input media file!")
             .AppendSwitchQuoted("-u", "https://baseflow.com");
 
         // Sign the binary.
