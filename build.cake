@@ -6,8 +6,8 @@
 
 using Polly;
 
-var solutionName = "Lottie";
-var repoName = "martijn00/LottieXamarin";
+var solutionName = "FFmpegMediaMetadataRetriever";
+var repoName = "martijn00/FFmpegMediaMetadataRetrieverXamarin";
 var sln = new FilePath("./" + solutionName + ".sln");
 var outputDir = new DirectoryPath("./artifacts");
 var nuspecDir = new DirectoryPath("./nuspec");
